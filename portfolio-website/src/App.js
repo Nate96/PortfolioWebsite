@@ -1,5 +1,6 @@
 import './App.css';
-import ExperienceCard from './Components/ExperienceCard.js';
+import React from 'react'
+import ExperienceCard from './Components/Experiences.js';
 
 function App() {
   return (
