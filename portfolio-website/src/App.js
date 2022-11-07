@@ -1,11 +1,12 @@
 import './App.css';
 import React from 'react'
-import ExperienceCard from './Components/Experiences.js';
+import Experiences from './Components/Experiences.js';
 
 function App() {
   return (
     <div className="App">
-      <ExperienceCard/>
+      <h1>Experiences</h1>
+      <Experiences/>
 
     </div>
   );

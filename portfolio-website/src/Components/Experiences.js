@@ -6,8 +6,8 @@ import data from '../data/ProfessionalExperience.json'
 function ExperienceCard() {
 
     const Experiences = data.Experience.map((experience) => 
-        <div>
-            <Card style={{ width: '40rem', textAlign: 'left', padding: '1rem'}}>
+        <div style={{padding: '1%'}}>
+            <Card style={{ maxWidth: '40rem', textAlign: 'left', padding: '1rem'}}>
                 <Card.Body>
                 <Card.Title>{experience.title}</Card.Title>
                 <Card.Subtitle className="mb-2 text-muted">{experience.Organization}, {experience.location}</Card.Subtitle>
@@ -19,12 +19,10 @@ function ExperienceCard() {
                         )}
                     </ul>
                 </Card.Text>
-                <Card.Link href="#">Card Link</Card.Link>
-                <Card.Link href="#">Another Link</Card.Link>
+                {/* <Card.Link href="#">Card Link</Card.Link>
+                <Card.Link href="#">Another Link</Card.Link> */}
                 </Card.Body>
             </Card>
-
-
         </div>
     )
 
