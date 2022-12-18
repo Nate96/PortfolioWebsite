@@ -1,45 +1,16 @@
 {
     "Experience": [
         {
-            "title": "PASS Student Developer",
-            "Organization": "University of Wisconsin - Platteville IT Services",
-            "location": "Platteville, WI",
-            "startDate": "12/2018",
-            "endDate": "5/2020",
+            "title": "Workflow Specailist",
+            "Organization": "Dupaco",
+            "location": "Dubuque, IA",
+            "startDate": "1/10/2022",
+            "endDate": "",
             "highlights": [
-                "Built App Engines that transferred data between systems using SQL, PeopleCode, and SQR.",
-                "Successfully managed multiple developing projects at once with the help of Organizational skills.",
-                "Used SQL and PeopleCode to create Queries for custom reports for customers.",
-                "Innovated a new strategy for improving tracking and enhancing communication with customers"
-            ],
-            "active": 1
-    
-        },
-        {
-            "title": "Technical Support Representative",
-            "Organization": "University of Wisconsin - Platteville IT Help Desk",
-            "location": "Platteville, WI",
-            "startDate": "6/2017",
-            "endDate": "12/2018",
-            "highlights": [
-                "Delegated tasks to other workers with the help of leadership skills",
-                "Solved incoming technical issues from students using problem-solving and analytical skills",
-                "Maximized customer satisfaction by utilizing interpersonal skills"
-            ],
-            "active": 1
-    
-        },
-        {
-            "title": "Associate Software Engineer",
-            "Organization": "TrustedRentr",
-            "location": "NA",
-            "startDate": "11/2020",
-            "endDate": "8/2021",
-            "highlights": [
-                "Successfully designed and implemented Web UX using Ant-Design and React.js.",
-                "Successfully displayed information on web pages by using API calls.",
-                "Fix various bugs.",
-                "Collaborated with a team using Agile methods."
+                "Role invovles detailed discussions with interal teams to design, improve and standarize processed based on the ever changing enviorments and needs of the organiztion.",
+                "Utilized XML to perform transactions and update member accounts",
+                "Ultilized Jira and Agile methods to manage and prioritize tasks",
+                "Utilize SQL to query member information and create stored procedures"
             ],
             "active": 1
         },
@@ -71,16 +42,44 @@
             "active": 1
         },
         {
-            "title": "Workflow Specailist",
-            "Organization": "Dupaco",
-            "location": "Dubuque, IA",
-            "startDate": "1/10/2022",
-            "endDate": "",
+            "title": "Associate Software Engineer",
+            "Organization": "TrustedRentr",
+            "location": "NA",
+            "startDate": "11/2020",
+            "endDate": "8/2021",
             "highlights": [
-                "Role invovles detailed discussions with interal teams to design, improve and standarize processed based on the ever changing enviorments and needs of the organiztion.",
-                "Utilized XML to perform transactions and update member accounts",
-                "Ultilized Jira and Agile methods to manage and prioritize tasks",
-                "Utilize SQL to query member information and create stored procedures"
+                "Successfully designed and implemented Web UX using Ant-Design and React.js.",
+                "Successfully displayed information on web pages by using API calls.",
+                "Fix various bugs.",
+                "Collaborated with a team using Agile methods."
+            ],
+            "active": 1
+        },
+        {
+            "title": "PASS Student Developer",
+            "Organization": "University of Wisconsin - Platteville IT Services",
+            "location": "Platteville, WI",
+            "startDate": "12/2018",
+            "endDate": "5/2020",
+            "highlights": [
+                "Built App Engines that transferred data between systems using SQL, PeopleCode, and SQR.",
+                "Successfully managed multiple developing projects at once with the help of Organizational skills.",
+                "Used SQL and PeopleCode to create Queries for custom reports for customers.",
+                "Innovated a new strategy for improving tracking and enhancing communication with customers"
+            ],
+            "active": 1
+    
+        },
+        {
+            "title": "Technical Support Representative",
+            "Organization": "University of Wisconsin - Platteville IT Help Desk",
+            "location": "Platteville, WI",
+            "startDate": "6/2017",
+            "endDate": "12/2018",
+            "highlights": [
+                "Delegated tasks to other workers with the help of leadership skills",
+                "Solved incoming technical issues from students using problem-solving and analytical skills",
+                "Maximized customer satisfaction by utilizing interpersonal skills"
             ],
             "active": 1
         }
