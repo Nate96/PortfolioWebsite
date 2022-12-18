@@ -3,15 +3,25 @@ import React from 'react'
 import Card from 'react-bootstrap/Card'
 import data from '../data/ProfessionalExperience.json'
 
-function ExperienceCard() {
+const  ExperienceCard = () => {
 
+    data.Experience.sort((a,b) => {
+        let c = a.Organization.toLocaleLowerCase()
+        let d = b.Organization.toLocaleLowerCase()
+        return c - d 
+    });
+
+    data.Experience.forEach((e) => {
+        console.log(`${e.title} ${e.startDate}`);
+    });
+    
     const Experiences = data.Experience.map((experience) => 
         <div style={{padding: '1%'}}>
             <Card style={{ maxWidth: '40rem', textAlign: 'left', padding: '1rem'}}>
                 <Card.Body>
                 <Card.Title>{experience.title}</Card.Title>
                 <Card.Subtitle className="mb-2 text-muted">{experience.Organization}, {experience.location}</Card.Subtitle>
-                <Card.Subtitle className="mb-2 text-muted">{experience.duration}</Card.Subtitle>
+                <Card.Subtitle className="mb-2 text-muted">{experience.startDate} - {experience.endDate}</Card.Subtitle>
                 <Card.Text style={{fontSize: 'medium'}}>
                     <ul>
                         {experience.highlights.map((highlight) => 
@@ -26,6 +36,16 @@ function ExperienceCard() {
         </div>
     )
 
+    // data.Experience.sort((a,b) => {
+    //     let c = a.Organization.toLocaleLowerCase()
+    //     let d = b.Organization.toLocaleLowerCase()
+    //     return c - d 
+    // });
+
+    // data.Experience.forEach((e) => {
+    //     console.log(`${e.title} ${e.startDate}`);
+    // });
+    
 
     return (
         

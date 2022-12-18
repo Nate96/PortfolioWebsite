@@ -4,7 +4,8 @@
             "title": "PASS Student Developer",
             "Organization": "University of Wisconsin - Platteville IT Services",
             "location": "Platteville, WI",
-            "duration": "12/2018 - 5/2020",
+            "startDate": "12/2018",
+            "endDate": "5/2020",
             "highlights": [
                 "Built App Engines that transferred data between systems using SQL, PeopleCode, and SQR.",
                 "Successfully managed multiple developing projects at once with the help of Organizational skills.",
@@ -18,7 +19,8 @@
             "title": "Technical Support Representative",
             "Organization": "University of Wisconsin - Platteville IT Help Desk",
             "location": "Platteville, WI",
-            "duration": "6/2017 - 12/2018",
+            "startDate": "6/2017",
+            "endDate": "12/2018",
             "highlights": [
                 "Delegated tasks to other workers with the help of leadership skills",
                 "Solved incoming technical issues from students using problem-solving and analytical skills",
@@ -31,7 +33,8 @@
             "title": "Associate Software Engineer",
             "Organization": "TrustedRentr",
             "location": "NA",
-            "duration": "11/2020 - 8/2021",
+            "startDate": "11/2020",
+            "endDate": "8/2021",
             "highlights": [
                 "Successfully designed and implemented Web UX using Ant-Design and React.js.",
                 "Successfully displayed information on web pages by using API calls.",
@@ -44,7 +47,8 @@
             "title": "Associate",
             "Organization": "Infosys",
             "location": "Moline, IL",
-            "duration": "4/2021 - 1/7/2022",
+            "startDate": "4/2021",
+            "endDate": "1/7/2022",
             "highlights": [
                 "Implemented scalable full-stack applications using Java Spring Boot Microservices.",
                 "Implemented user interfaces using React.js and Angular that display user information stored in a MySQL database.",
@@ -57,7 +61,8 @@
             "title": "Billing Analyst II",
             "Organization": "Charter",
             "location": "Moline IL",
-            "duration": "9/2021 - 1/7/2022",
+            "startDate": "9/2021",
+            "endDate": "1/7/2022",
             "highlights": [
                 "upport and monitor various applications.",
                 "Relayed useful information to developers and engineers to aid a fix of downed services.",
@@ -69,15 +74,15 @@
             "title": "Workflow Specailist",
             "Organization": "Dupaco",
             "location": "Dubuque, IA",
-            "duration": "1/10/2022 - present",
+            "startDate": "1/10/2022",
+            "endDate": "",
             "highlights": [
                 "Role invovles detailed discussions with interal teams to design, improve and standarize processed based on the ever changing enviorments and needs of the organiztion.",
                 "Utilized XML to perform transactions and update member accounts",
                 "Ultilized Jira and Agile methods to manage and prioritize tasks",
                 "Utilize SQL to query member information and create stored procedures"
             ],
-            "active": 0
-    
+            "active": 1
         }
     ]
 }
