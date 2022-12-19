@@ -16,8 +16,8 @@ const  ExperienceCard = () => {
     });
     
     const Experiences = data.Experience.map((experience) => 
-        <div style={{}}>
-            <Card style={{ maxWidth: '40rem', textAlign: 'left', padding: '1rem'}}>
+        <div style={{paddingBottom: '1rem'}}>
+            <Card style={{ maxWidth: '40rem', textAlign: 'left'}}>
                 <Card.Body>
                 <Card.Title>{experience.title}</Card.Title>
                 <Card.Subtitle className="mb-2 text-muted">{experience.Organization}, {experience.location}</Card.Subtitle>

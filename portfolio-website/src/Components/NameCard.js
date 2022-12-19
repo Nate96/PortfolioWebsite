@@ -7,7 +7,7 @@ function NameCard() {
     return (
         <div style={{paddingBottom: '1rem'}}>
             <Card className='nameCard' style={{
-                    maxWidth: '38rem', 
+                    maxWidth: '40rem', 
                     maxHight: '10rem', 
                     textAlign: 'left', 
                 }}>
