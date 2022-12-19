@@ -4,17 +4,6 @@ import Card from 'react-bootstrap/Card'
 import data from '../data/ProfessionalExperience.json'
 
 const  ExperienceCard = () => {
-
-    data.Experience.sort((a,b) => {
-        let c = a.Organization.toLocaleLowerCase()
-        let d = b.Organization.toLocaleLowerCase()
-        return c - d 
-    });
-
-    data.Experience.forEach((e) => {
-        console.log(`${e.title} ${e.startDate}`);
-    });
-    
     const Experiences = data.Experience.map((experience) => 
         <div style={{paddingBottom: '1rem'}}>
             <Card style={{ maxWidth: '40rem', textAlign: 'left'}}>
