@@ -16,7 +16,7 @@ const  ExperienceCard = () => {
     });
     
     const Experiences = data.Experience.map((experience) => 
-        <div style={{padding: '1%'}}>
+        <div style={{}}>
             <Card style={{ maxWidth: '40rem', textAlign: 'left', padding: '1rem'}}>
                 <Card.Body>
                 <Card.Title>{experience.title}</Card.Title>
@@ -35,18 +35,7 @@ const  ExperienceCard = () => {
             </Card>
         </div>
     )
-
-    // data.Experience.sort((a,b) => {
-    //     let c = a.Organization.toLocaleLowerCase()
-    //     let d = b.Organization.toLocaleLowerCase()
-    //     return c - d 
-    // });
-
-    // data.Experience.forEach((e) => {
-    //     console.log(`${e.title} ${e.startDate}`);
-    // });
     
-
     return (
         
         <div className='ExperienceCard'>
